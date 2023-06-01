@@ -3,10 +3,10 @@
 
 $tasks = @(
     # Windows base scheduled tasks
-    "\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319"
-    "\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319 64"
-    "\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319 64 Critical"
-    "\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319 Critical"
+    #"\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319"
+    #"\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319 64"
+    #"\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319 64 Critical"
+    #"\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319 Critical"
 
     #"\Microsoft\Windows\Active Directory Rights Management Services Client\AD RMS Rights Policy Template Management (Automated)"
     #"\Microsoft\Windows\Active Directory Rights Management Services Client\AD RMS Rights Policy Template Management (Manual)"
@@ -41,9 +41,9 @@ $tasks = @(
 
     "\Microsoft\Windows\CloudExperienceHost\CreateObjectTask"
 
-    "\Microsoft\Windows\Customer Experience Improvement Program\Consolidator"
-    "\Microsoft\Windows\Customer Experience Improvement Program\KernelCeipTask"
-    "\Microsoft\Windows\Customer Experience Improvement Program\UsbCeip"
+    #"\Microsoft\Windows\Customer Experience Improvement Program\Consolidator"
+    #"\Microsoft\Windows\Customer Experience Improvement Program\KernelCeipTask"
+    #"\Microsoft\Windows\Customer Experience Improvement Program\UsbCeip"
 
     #"\Microsoft\Windows\Data Integrity Scan\Data Integrity Scan"
     #"\Microsoft\Windows\Data Integrity Scan\Data Integrity Scan for Crash Recovery"
@@ -71,7 +71,7 @@ $tasks = @(
     #"\Microsoft\Windows\Location\Notifications"
     #"\Microsoft\Windows\Location\WindowsActionDialog"
 
-    #"\Microsoft\Windows\Maintenance\WinSAT"
+    "\Microsoft\Windows\Maintenance\WinSAT"
 
     #"\Microsoft\Windows\Maps\MapsToastTask"
     #"\Microsoft\Windows\Maps\MapsUpdateTask"
@@ -162,10 +162,10 @@ $tasks = @(
 
     #"\Microsoft\Windows\WDI\ResolutionHost"
 
-    "\Microsoft\Windows\Windows Defender\Windows Defender Cache Maintenance"
-    "\Microsoft\Windows\Windows Defender\Windows Defender Cleanup"
-    "\Microsoft\Windows\Windows Defender\Windows Defender Scheduled Scan"
-    "\Microsoft\Windows\Windows Defender\Windows Defender Verification"
+    #"\Microsoft\Windows\Windows Defender\Windows Defender Cache Maintenance"
+    #"\Microsoft\Windows\Windows Defender\Windows Defender Cleanup"
+    #"\Microsoft\Windows\Windows Defender\Windows Defender Scheduled Scan"
+    #"\Microsoft\Windows\Windows Defender\Windows Defender Verification"
 
     "\Microsoft\Windows\Windows Error Reporting\QueueReporting"
 
